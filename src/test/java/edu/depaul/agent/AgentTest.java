@@ -5,6 +5,7 @@ package edu.depaul.agent;
 
 import static org.junit.Assert.*;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -13,7 +14,7 @@ import org.junit.Test;
  */
 public class AgentTest implements Agent {
 
-	@Test
+	@Test @Ignore
 	public void test() {
 		fail("Not yet implemented");
 	}
